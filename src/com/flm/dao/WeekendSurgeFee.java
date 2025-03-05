@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-public class weekendSurgeFee {
+public class WeekendSurgeFee {
 	private static Scanner scan = new Scanner(System.in);
 	
 	

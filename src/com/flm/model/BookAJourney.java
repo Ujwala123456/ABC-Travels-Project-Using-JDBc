@@ -9,7 +9,7 @@ import com.flm.dao.BookJourney;
 import com.flm.dao.BookingTickets;
 import com.flm.dao.BusBookingTicketsBill;
 import com.flm.dao.NoofSeats;
-import com.flm.dao.weekendSurgeFee;
+import com.flm.dao.WeekendSurgeFee;
 
 public class BookAJourney {
 	private static Scanner scan = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class BookAJourney {
 			BookJourney.bookJourney();
 			NoofSeats.noofseats();
 			Amount.amount();
-			weekendSurgeFee.weekendSurgeFee();
+			WeekendSurgeFee.weekendSurgeFee();
 			System.out.println("Enter the Number:");
 			int num = scan.nextInt();
 			switch (num) {
